@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <title>Trama: soluções de educação e museu</title>
+</head>
+
+<body>
+    <header class="header">
+        <img src="img/Horizontal com tagline sob azul escuro 2.svg" alt="" class="logo">
+    </header>
+    <section class="navigation">
+        <a href="#">Home</a>
+        <a href="#">Contatos</a>
+        <a href="#">Produtos</a>
+        <a href="#">Sobre nós</a>
+    </section>
+    <div class="title">
+        <h2 class="title__content">Conectando pessoas ao conhecimento</h2>
+    </div>
+    <section class="imageboard">
+
+    <div class="swiper">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide">
+                <img src="img/Galerinha_colonizacao.jpg" alt="Capa do livro 1">
+            </div>
+            <div class="swiper-slide">
+                <img src="img/vania1.jpg" alt="Capa do livro 2">
+            </div>
+            <div class="swiper-slide">
+                <img src="img/vania2.jpg" alt="Capa do livro 3">
+            </div>
+        </div>
+
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+        <div class="swiper-pagination"></div>
+    </div>
+
+</section>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+   const swiper = new Swiper('.swiper', {
+  effect: 'coverflow',
+  grabCursor: true,
+  centeredSlides: true,
+  slidesPerView: 'auto',
+  loop: true,
+  loopAdditionalSlides: 2, // Importante para o loop funcionar bem
+
+  coverflowEffect: {
+    rotate: 20,
+    stretch: 0,
+    depth: 100,
+    modifier: 1,
+    slideShadows: false,
+  },
+
+  pagination: {
+    el: '.swiper-pagination',
+    clickable: true,
+  },
+  
+  navigation: {
+    nextEl: '.swiper-button-next', // Verifique esta linha
+    prevEl: '.swiper-button-prev',   // Verifique esta linha
+  },
+});
+</script>
+        
+</body>
+
+</html>
