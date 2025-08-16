@@ -1,0 +1,238 @@
+/* ===============================
+   CLINTOSLAB
+   =============================== */
+@font-face {
+  font-family: 'ClintoSlab';
+  src: url('../fonts/ClintoSlab-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ClintoSlab';
+  src: url('../fonts/ClintoSlab-BoldItalic.otf') format('opentype');
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'ClintoSlab';
+  src: url('../fonts/ClintoSlab-ExtraLight.otf') format('opentype');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ClintoSlab';
+  src: url('../fonts/ClintoSlab-ExtraLightItalic.otf') format('opentype');
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'ClintoSlab';
+  src: url('../fonts/ClintoSlab-Italic.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'ClintoSlab';
+  src: url('../fonts/ClintoSlab-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+/* ===============================
+   ELGRAINE
+   =============================== */
+@font-face {
+  font-family: 'Elgraine';
+  src: url('../fonts/Elgraine-Black.otf') format('opentype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Elgraine';
+  src: url('../fonts/Elgraine-BlackItalic.otf') format('opentype');
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Elgraine';
+  src: url('../fonts/Elgraine-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Elgraine';
+  src: url('../fonts/Elgraine-BoldItalic.otf') format('opentype');
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Elgraine';
+  src: url('../fonts/Elgraine-ExtraBold.otf') format('opentype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Elgraine';
+  src: url('../fonts/Elgraine-ExtraBoldItalic.otf') format('opentype');
+  font-weight: 800;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Elgraine';
+  src: url('../fonts/Elgraine-ExtraLight.otf') format('opentype');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Elgraine';
+  src: url('../fonts/Elgraine-ExtraLightItalic.otf') format('opentype');
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Elgraine';
+  src: url('../fonts/Elgraine-Italic.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Elgraine';
+  src: url('../fonts/Elgraine-Light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Elgraine';
+  src: url('../fonts/Elgraine-LightItalic.otf') format('opentype');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Elgraine';
+  src: url('../fonts/Elgraine-Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Elgraine';
+  src: url('../fonts/Elgraine-MediumItalic.otf') format('opentype');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Elgraine';
+  src: url('../fonts/Elgraine-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Elgraine';
+  src: url('../fonts/Elgraine-SemiBold.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Elgraine';
+  src: url('../fonts/Elgraine-SemiBoldItalic.otf') format('opentype');
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Elgraine';
+  src: url('../fonts/Elgraine-Thin.otf') format('opentype');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Elgraine';
+  src: url('../fonts/Elgraine-ThinItalic.otf') format('opentype');
+  font-weight: 100;
+  font-style: italic;
+}
+
+
+/* ===============================
+   KIDS KOMIK
+   =============================== */
+@font-face {
+  font-family: 'KidsKomik';
+  src: url('../fonts/Kids Komik.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+/* ===============================
+   PARKINSANS
+   =============================== */
+@font-face {
+  font-family: 'Parkinsans';
+  src: url('../fonts/Parkinsans-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Parkinsans';
+  src: url('../fonts/Parkinsans-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Parkinsans';
+  src: url('../fonts/Parkinsans-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Parkinsans';
+  src: url('../fonts/Parkinsans-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Parkinsans';
+  src: url('../fonts/Parkinsans-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Parkinsans';
+  src: url('../fonts/Parkinsans-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Parkinsans';
+  src: url('../fonts/Parkinsans-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900; /* variável */
+  font-style: normal;
+}
