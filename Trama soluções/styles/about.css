@@ -1,6 +1,9 @@
+
+   
 .aboutus{
     display: flex;
     justify-content: center;
+    align-items: center;
     
 }
 .container__aboutus{
@@ -9,25 +12,33 @@
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
-    margin:3em
+    margin:1.5%
+}
+.cards__aboutus{
+    
+    max-width: 30%;
+    max-height: 40% ;
 }
 .aboutus__img{
-    border-radius: 120px;
+    border-radius: 100%;
 }
 .card__summary__aboutus{
     font-family: "Elgraine" ;
     font-weight: 500;
+    font-size: 1vw;
 }
 .cards__title__aboutus{
     font-family: 'Elgraine';
     font-weight: 700;
+    font-size: 1.6vw;
 }
 .header__title{
     font-family: 'Elgraine';
     font-weight: 700;
-    font-size: 38px;
+    font-size: 3vw;
     color: var(--laranja);
-    margin-left: 8.5em;
+    margin-left: 15vw;
+    text-shadow: 4px 3px 5px rgba(255,71,25,0.52);
 }
 .cards__aboutus:hover{
     transition: transform 0.3s ease-in-out;

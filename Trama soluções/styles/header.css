@@ -1,58 +1,56 @@
 .logo {
-    max-height: 7rem;
-    height: 7rem;
+    height: 6vw; /* Mantém tamanho fixo em VW sem precisar de min/max */
+    object-fit: contain;
 }
 
 .header {
     display: flex;
-    justify-content: flex-start;
     align-items: center;
     background-color: var(--azul--forte);
-    height: 4.8rem;
     width: 100%;
     padding: 0 15%;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5)
+    box-shadow: 0.125vw 0.125vw 0.625vw rgba(0, 0, 0, 0.5);
 }
 
 .navigation {
     display: flex;
-    background-color: var(--rosa--fraco);
     justify-content: flex-start;
     align-items: center;
-    font-family: Arial, Helvetica, sans-serif;
+    background-color: var(--rosa--fraco);
+    font-family: 'ClintoSlab', serif;
     font-weight: 700;
+    font-size: 0.8vw;
     gap: 23%;
     padding: 0 22%;
-    height: 2.4rem;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
-    text-shadow: 5px 5px 7px rgba(0, 0, 0, 0.5)
+    height: 2vw;
+    box-shadow: 0.125vw 0.125vw 0.625vw rgba(0, 0, 0, 0.5);
+    text-shadow: 0.45vw 0.65vw 0.9vw rgba(0, 0, 0, 0.5);
 }
 
 .navigation a {
     text-decoration: none;
     color: black;
+    transition: transform 0.2s ease-in-out;
 }
-.navigation a:hover{
-    transition: transform 0.1s ease-in-out;
+
+.navigation a:hover {
     transform: scale(1.05);
 }
 
-
 .title__header {
     display: flex;
-    align-items: center;
-    text-align: center;
     justify-content: center;
+    align-items: center;
     background-color: #4BA6DD;
-    height: 4.5rem;
+    height: 4vw;
     width: 30%;
-    margin: 1.5% 35%;
+    margin: 1.5% auto; /* centraliza sem precisar 35% de margem */
     padding: 1rem;
     font-family: 'Georgia', serif;
     font-style: italic;
-    font-size: 1.625rem;
-    border-radius: 1.25rem;
-    border: black solid 0.1875rem;
-    box-shadow: 0.125rem 0.125rem 0.625rem rgba(0, 0, 0, 0.5);
-    text-shadow: 0.3125rem 0.4375rem 0.625rem rgba(0, 0, 0, 0.5);
+    font-size: 1.5vw;
+    border-radius: 1vw;
+    border: 0.2vw solid black;
+     box-shadow: 0.9vw 0.9vw 0.9vw rgba(0, 0, 0, 0.5); /* 0.625rem */
+    text-shadow: 0.45vw 0.65vw 0.9vw rgba(0, 0, 0, 0.5); /* 0.3125rem 0.4375rem 0.625rem */
 }
